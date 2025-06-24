@@ -23,8 +23,6 @@ export default defineConfig({
       });
       if (config.env.environment === "prod") {
         config.baseUrl = "https://icharterbooking.com";
-      } else if (config.env.environment === "dev") {
-        config.baseUrl = "https://development.d1ep59sygwb9dl.amplifyapp.com";
       } else if (config.env.environment === "stage") {
         config.baseUrl = "https://staging.icharterbooking.com";
       }
