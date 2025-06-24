@@ -1,6 +1,6 @@
 # iCharter QA Automation
 
-Automated end-to-end tests for the iCharter application using Playwright.
+Automated end-to-end tests for the iCharter application using Cypress.
 
 ## Getting Started
 
@@ -10,14 +10,19 @@ Automated end-to-end tests for the iCharter application using Playwright.
 2. Install dependencies  
    `npm install`
 
-3. Run tests  
-   `npx playwright test`
+3. Run tests in headless mode  
+   `npm test`
+
+4. (Optional) Open Cypress Test Runner UI  
+   `npm run cypress:open`
 
 ## Project Structure
 
-- `tests/`: Playwright test suites
-- `.github/workflows/`: CI workflow for GitHub Actions
-- `playwright.config.ts`: Test config and browser options
+- `cypress/e2e/`: Cypress test suites  
+- `cypress/fixtures/`: Test data and selectors  
+- `cypress/support/`: Custom commands and setup  
+- `.github/workflows/`: CI workflow for GitHub Actions  
+- `cypress.config.js`: Cypress configuration and browser options  
 
 ## Author
 
