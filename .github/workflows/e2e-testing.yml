@@ -1,0 +1,45 @@
+name: e2e-testing
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-22.04
+    name: Build and test
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          # Action runs: using: node16 as defined in
+          # https://github.com/cypress-io/github-action/blob/master/action.yml
+          # Node.js minor version is aligned to
+          # https://github.com/actions/runner/blob/main/src/Misc/externals.sh
+          node-version: 16.16.0
+      - uses: bahmutov/npm-install@v1
+        with: 
+          useLockFile: false
+      - name: Build
+        run: yarn build
+      - name: Run E2E Testing
+        run: npm run e2e:headless
+      - name: Archive test screenshots
+      
+        uses: actions/upload-artifact@v2
+        with:
+          name: screenshots
+          path: cypress/screenshots
+        # if: ${{ failure() }}
+        if: always()
+      - name: Archive test videos
+        uses: actions/upload-artifact@v2
+        with:
+          name: videos
+          path: cypress/videos
+        if: always()
+        # if: ${{ failure() }}

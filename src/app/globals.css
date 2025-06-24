@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+*  This hides the arrow of a number input
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.gm-style-iw {
+  padding: 0 !important;
+  background: transparent !important;
+  overflow: hidden !important;
+}
+
+.gm-style-iw > button {
+  display: none !important;
+}
+
+.gm-style-iw-d {
+  overflow: hidden !important;
+}
+
+/* Scroll bar stylings */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--lightestgrey);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.cal-color-gray {
+  color: #777 !important;
+}
+
+.cal-color-gray .Lx {
+  color: #777 !important;
+}
+
+.cal-day-item {
+  background-color: white;
+  border: 1px solid #c9c9c9 !important;
+}
+
+.cal-day-item-selected {
+  background-color: white !important;
+  border: 2px solid #2d3aaf !important;
+}
+
+.cal-day-item-selected .Lx {
+  color: #777 !important;
+}
+
+.cal-day-item-selected ._1g {
+  color: #777 !important;
+  background-color: white !important;
+}
+
+._3n:not(.FC):hover {
+  border: 2px solid #2d3aaf !important;
+  background-color: white;
+  color: #777 !important;
+}
+/* Modified padding of the calendar */
+.rdrMonth {
+  padding-bottom: 8px !important;
+}

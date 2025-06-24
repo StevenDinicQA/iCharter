@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^13.7.3",
+    "cypress-file-upload": "^5.0.8",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "node-fetch": "^2.6.1"
+  }
+}

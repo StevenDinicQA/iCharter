@@ -1,0 +1,59 @@
+/* Update the Swiper container styles */
+.swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Remove the overflow property from the swiper-wrapper */
+.swiper-wrapper {
+  display: flex;
+  transition-property: transform;
+  align-items: center;
+}
+
+/* Adjust the margin between slides */
+.swiper-slide {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* Update styles for small-slide and centered-slide */
+.small-slide {
+  width: 232px;
+  height: 384px;
+  border-radius: 14px;
+}
+
+.centered-slide {
+  height: 480px;
+  min-width: 290px;
+  border-radius: 20px;
+}
+
+/* Update styles for swiper-nav-container */
+.swiper-nav-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hidden {
+  scrollbar-width: none;
+  /* Firefox 64 and later */
+  scrollbar-color: transparent transparent;
+  /* Firefox 64 and later */
+}
+
+/* Hide scrollbar for Webkit/Blink */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}

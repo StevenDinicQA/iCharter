@@ -1,0 +1,37 @@
+<svg width="376" height="343" viewBox="0 0 376 343" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1201_9778)">
+<rect width="375.483" height="343" rx="12" fill="#F9F9F9"/>
+<rect x="93.4189" y="34.4189" width="246.162" height="60.1623" rx="11.5811" fill="white"/>
+<text fill="#454545" xml:space="preserve" style="white-space: pre" font-family="Gotham" font-size="14" letter-spacing="0px"><tspan x="175.655" y="67.49">New Listing</tspan></text>
+<rect x="93.4189" y="34.4189" width="246.162" height="60.1623" rx="11.5811" stroke="#EFEFEF" stroke-width="0.837748"/>
+<rect x="93.4189" y="123.419" width="246.162" height="60.1623" rx="11.5811" fill="white"/>
+<text fill="#454545" xml:space="preserve" style="white-space: pre" font-family="Gotham" font-size="14" letter-spacing="0px"><tspan x="157.574" y="156.49">Boat Information</tspan></text>
+<rect x="93.4189" y="123.419" width="246.162" height="60.1623" rx="11.5811" stroke="#EFEFEF" stroke-width="0.837748"/>
+<rect x="93.4189" y="216.419" width="246.162" height="60.1623" rx="11.5811" fill="white"/>
+<text fill="#454545" xml:space="preserve" style="white-space: pre" font-family="Gotham" font-size="14" letter-spacing="0px"><tspan x="168.259" y="249.49">Meeting Point</tspan></text>
+<rect x="93.4189" y="216.419" width="246.162" height="60.1623" rx="11.5811" stroke="#EFEFEF" stroke-width="0.837748"/>
+<circle cx="56" cy="65" r="19" fill="#2D3AAF"/>
+<path d="M62.1788 61L54.1496 69.0292L50.5 65.3796" stroke="white" stroke-width="1.5707" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56 128L56 93" stroke="#2D3AAF"/>
+<circle cx="56" cy="156" r="19" fill="#2D3AAF"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Gotham" font-size="16" letter-spacing="0px"><tspan x="50.5938" y="160.56">2</tspan></text>
+<path opacity="0.4" d="M56 184L56 219" stroke="#454545"/>
+<g opacity="0.4">
+<circle cx="56" cy="247" r="18.5" stroke="#454545"/>
+<text fill="#454545" xml:space="preserve" style="white-space: pre" font-family="Gotham" font-size="16" letter-spacing="0px"><tspan x="50.5547" y="251.56">3</tspan></text>
+</g>
+<path opacity="0.4" d="M56 275L56 310" stroke="#454545"/>
+</g>
+<defs>
+<filter id="filter0_d_1201_9778" x="-18" y="-14" width="411.483" height="379" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="9"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1201_9778"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1201_9778" result="shape"/>
+</filter>
+</defs>
+</svg>

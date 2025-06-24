@@ -1,0 +1,227 @@
+{
+  "homepage": {
+    "signIn": "[href='/auth/sign-in'] > .py-2",
+    "signUp": "[href='/auth/sign-up'] > .py-2",
+    "listYourBoat": ".bg-\\[\\#FFF\\]",
+    "homepageTitle": ".md\\:mt-\\[118px\\] > :nth-child(1) > h1",
+    "locationHomepageInput": ".group > .font-medium",
+    "dateHomepageInput": "[test-id='searchbar_date']",
+    "dateNextMonth": "button[class='rdrNextPrevButton rdrNextButton']",
+    "guestsHomepageInput": "[test-id='searchbar_guests']",
+    "searchButtonHomepage": "button[type='submit']",
+    "placeABidHomepageButton": "#icharter-bid > .relative > .flex-col > .flex",
+    "exploreAllHomepageButton": ":nth-child(13) > .bottom-3",
+    "browseByExperienceText": ":nth-child(5) > .text-xl",
+    "browseExperienceOne": ".grid > :nth-child(1) > .relative > .flex > .object-cover",
+    "browseExperienceTwo": ".grid > :nth-child(2) > .relative > .flex > .object-cover",
+    "popularDestinations": "#popular_destinations > .justify-between > .text-xl",
+    "popularDestinationOne": ".overflow-x-scroll > .grid > :nth-child(1)",
+    "popularDestinationTwo": ".overflow-x-scroll > .grid > :nth-child(2)",
+    "popularDestinationThree": ".overflow-x-scroll > .grid > :nth-child(3)",
+    "testemonialPictures": ".overflow > .justify-center",
+    "listYourBoatCTA": ".flex-col > a > .flex",
+    "socials": ".mt-\\[38px\\]",
+    "otherLinks": ".border-\\[\\#E0E0E0\\] > .w-full.flex-col > .lg\\:flex-row",
+    "marketplaceFooter": "[href='/market'] > .text-black",
+    "topListingsFooter": "[href='#top-listings'] > .text-black",
+    "popularDestinationsFooter": "[href='#popular_destinations'] > .text-black",
+    "faqFooter": "[href='/faqs'] > .text-black",
+    "privacyAndTermsFooter": "[test-id='footer_privacy']",
+    "sendFeedbackFooter": "[href='https://forms.clickup.com/8683127/f/88zkq-39757/HVKHKDGYEC5781CZE4'] > .text-black",
+    "contactUsFooter": "[href='mailto:info@icharterbooking.com'] > .text-black"
+  },
+  "signUpPage": {
+    "charterUser": "img[alt='charter']",
+    "customerUser": "img[alt='customer']",
+    "firstNameInput": "input[placeholder='First name']",
+    "lastNameInput": "input[placeholder='Last name']",
+    "emailAddressInput": "input[placeholder='Enter Email Address']",
+    "passwordInput": "div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)",
+    "eyePasswordIcon": "div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > button:nth-child(2)",
+    "repeatPasswordInput": "input[test-id='signup_confirm-password']",
+    "eyeRepeatPasswordIcon": "div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > button:nth-child(2)",
+    "createAccountBtn": "button[type='submit']",
+    "signInBtn": "a[test-id='signup_sign-in']",
+    "existingEmail": "div[role='status']"
+  },
+  "signInPage": {
+    "emailInput": ":nth-child(1) > .relative > .group > .font-medium",
+    "passwordInput": ":nth-child(2) > .relative > .group",
+    "eyePasswordIcon": ":nth-child(2) > .relative > .group > .cursor-pointer",
+    "forgotPassword": ".justify-between > .text-\\[13px\\]",
+    "resetPasswordComponent":"main.flex > .justify-center",
+    "forgotPassEmailInput": ".group",
+    "sixDigitCodeInput":":nth-child(1) > .relative > .group > .font-medium",
+    "newPasswordInput":":nth-child(2) > .relative > .group > .font-medium",
+    "confirmNewPasswordInput":":nth-child(3) > .relative > .group > .font-medium",
+    "resetYourPassBtn": "button[type='submit']",
+    "invalidCodeMessage":".MuiDialogContent-root > .flex-col",
+    "invalidEmailText": "div[role='status']",
+    "loginButton": "main.flex > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(3)",
+    "createAccButton": ".font-bold > a",
+    "incorrectCredentialsText": "div[role='status']"
+  },
+  "captainDashboard": {
+    "welcomeDiv": ".MuiDialogContent-root",
+    "iCharterLogo": ".lg\\:py-2 > .justify-between > :nth-child(1)",
+    "dashboardButton": ".justify-between > .text-white > :nth-child(1)",
+    "listingsButton": ".justify-between > .text-white > :nth-child(2)",
+    "bookingsButton": ".justify-between > .text-white > :nth-child(3)",
+    "reviewsButton": ".justify-between > .text-white > :nth-child(4)",
+    "earningsButton": ".justify-between > .text-white > :nth-child(5)",
+    "accountAvatar": ".justify-between > :nth-child(3)",
+    "createListingButton": ".justify-between > .text-\\[16px\\]",
+    "listingsTableWhole": ".px-4 > :nth-child(1)",
+    "tableRowListings": ".border-separate > :nth-child(2)",
+    "logOutButton": ".MuiList-root > .flex-col > :nth-child(2)",
+    "captainProfile": {
+      "myAccButton": ".MuiList-root > .flex-col > :nth-child(1)",
+      "profilePic": ".w-max > .w-\\[46px\\]",
+      "companyNameInput": "input[placeholder='Company name']",
+      "captainNameInput": "input[placeholder='Captain’s name']",
+      "phoneNoInput": "input[placeholder='Phone number']",
+      "locationInput": "input[placeholder='Enter location']",
+      "deleteLicenceButton": "div[class='cursor-pointer']",
+      "masterLicenceClick": "div:nth-child(5) > div:nth-child(2) > div:nth-child(1) >  #drag-n-drop",
+      "yearsOfExpInput": "input[placeholder='Enter years of experience']",
+      "nationalityDropdown": ".css-18991t-control",
+      "nationalityDropdownValue": ".css-1dimb5e-singleValue",
+      "veteranCheck": ":nth-child(1) > .w-\\[28px\\]",
+      "activeMilitaryCheck": ":nth-child(2) > .w-\\[28px\\]",
+      "firstResponderCheck": ":nth-child(3) > .w-\\[28px\\]",
+      "minorityBusinessCheck": ":nth-child(3) > .w-\\[28px\\]",
+      "instagramSocials": ":nth-child(1) > .h-\\[106px\\] > .w-\\[81px\\]",
+      "facebookSocials": ":nth-child(2) > .h-\\[106px\\] > .w-\\[81px\\]",
+      "tikTokSocials": ":nth-child(3) > .h-\\[106px\\] > .w-\\[81px\\]",
+      "yelpSocials": ":nth-child(4) > .h-\\[106px\\] > .w-\\[81px\\]",
+      "photosVideosClick": ".gap-\\[30px\\] > .text-\\[\\#454545\\] > :nth-child(2) > :nth-child(1) > #drag-n-drop",
+      "deletePhotos": ":nth-child(n) > .text-slate-400",
+      "photosPreview": "div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > #preview-container > div",
+      "saveButton": "button[class='text-[16px] py-[14px] px-[24px] font-[500] leading-[18px] rounded-[12px] text-white bg-[#2D3AAF] self-end']",
+      "deleteCaptainAccount": ".lg\\:self-start"
+    },
+    "listingStepsSelectors": {
+      "stepOne": {
+        "experienceName": ":nth-child(1) > :nth-child(2) > .relative > .group",
+        "fishingCharerExp": "div[test-id='Fishing Charters']",
+        "toursExp": "div[test-id='Tours: Dolphins, Island, Sunset/Sunrise, Shelling']",
+        "experienceDescription": ".max-w-\\[578px\\] > :nth-child(2) > .relative > .group",
+        "selectCaptain": "div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)",
+        "dragAndDropPictures": "#drag-n-drop",
+        "nextButton": "button[type='button']"
+      },
+      "stepTwo": {
+        "speciesInput": ".css-19bb58m > :nth-child(1)",
+        "fishingTechniques": "div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(n) > div:nth-child(1) > div:nth-child(1)",
+        "includedInPrice": "div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(n) > div:nth-child(1) > div:nth-child(1)"
+      },
+      "stepThree": {
+        "boatType": ".css-hlgwow > .css-19bb58m >input",
+        "boatDescription": ".relative > .group > .w-full",
+        "incrementGuestNumber": ".text-\\[\\#4C4D4C\\]",
+        "duration": ".css-hlgwow > .css-19bb58m > input",
+        "departureTimeHour": "#hour-input",
+        "departureTimeMinute": "#minute-input",
+        "availability": "div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(n) > div:nth-child(1)",
+        "seasonalExperience": ".css-hlgwow > .css-19bb58m >input",
+        "facilities": "div:nth-child(8) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(n) > :nth-child(1) > :nth-child(1)"
+      },
+      "stepFour": {
+        "streetAddressInput": ":nth-child(1) > .relative > .group",
+        "directionsInput": ":nth-child(2) > .relative > .group",
+        "nextButtonStepFour": "form.text-\\[\\#454545\\] > .text-white"
+      },
+      "stepFive": {
+        "publicModel": "label[for='Public']",
+        "privateModel": "label[for='Private']",
+        "bidInput": "input[placeholder='Enter price']",
+        "specialDicountInput": ".css-hlgwow > .css-19bb58m >input",
+        "specialDiscountSingleValue": ".css-1dimb5e-singleValue",
+        "paymentMethodChecks": ".flex-row > :nth-child(n) > :nth-child(1) > :nth-child(1)",
+        "cancelationDescription": ".max-w-\\[578px\\] > :nth-child(2) > .relative > .group",
+        "iCharterBidDescription": "div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2)",
+        "iCharterBidCheck": "div:nth-child(8) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)",
+        "publishButton": "button[type='button']"
+      }
+    },
+    "listingsTableButtons": {
+      "listingsTable": ".text-center",
+      "listingEditButton": ":nth-child(1) > :nth-child(6) > .pr-\\[20px\\] > button",
+      "publishToggle": ":nth-child(1) > :nth-child(6) > .pr-\\[20px\\] > [test-id='tooltip-publish-listing'] > div.flex > label",
+      "duplicateTrip": ":nth-child(1) > :nth-child(6) > .pr-\\[20px\\] > :nth-child(3)",
+      "deleteTrip": ":nth-child(1) > :nth-child(6) > .pr-\\[20px\\] > :nth-child(4)"
+    }
+  },
+  "listingsMarket": {
+    "firstListing": "body main article:nth-child(1)",
+    "secondListing":"body main article:nth-child(2)",
+    "sortDropdown": "div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)",
+    "listingDetails": {
+      "checkAvailabilityButton": "div[class='hidden xl:block flex-1'] > :nth-child(3)",
+      "date": "div[class='hidden xl:block flex-1'] > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(12)",
+      "nextMonthArrow": ".mt-\\[25px\\] > .p-2 > .relative > .rdrCalendarWrapper > :nth-child(1) > :nth-child(3)",
+      "sundayCalendar": "div[class='w-full flex gap-[34px] xl:max-w-[calc(100vw-96px)]'] div:nth-child(1) div:nth-child(1) div:nth-child(2) div:nth-child(1) div:nth-child(2) button:nth-child(29)",
+      "applyButton": "div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)",
+      "bookButton": ".mt-\\[25px\\] > .text-\\[16px\\]",
+      "mobileNumberDetails": "input[placeholder='Enter Mobile Number']",
+      "zipCodeDetails": "input[placeholder='Enter Zip Code']",
+      "nextButtonBookingDetails": ".w-full.justify-between.items-center.inline-flex > button",
+      "creditCardInput": ".CardNumberField-input-wrapper > span > input",
+      "expirationDate": "input[name = exp-date]",
+      "cvvCode": "input[name = cvc]",
+      "nextButtonBookingConfirmation": "button[class='text-[16px] py-[14px] px-[24px] font-[500] leading-[18px] rounded-[12px] text-white bg-[#2D3AAF] ']",
+      "mapOption": "button[class='w-[38px] h-[38px] rounded-full flex justify-center items-center cursor-pointer']",
+      "mapLocationFlorida": "div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img",
+      "fullListingsList":".flex.flex-col.gap-5",
+      "listingsLocation":".flex.flex-col.gap-5 > :nth-child(n) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)",
+      "captainProfileCheck":"div[class='hidden xl:block flex-1'] div[class='flex flex-col flex'] div[class='mb-[10px] flex items-center gap-[8px]'] a",
+      "captainLocation":".xl\\:block > .py-\\[20px\\] > .flex-col > :nth-child(3) > .flex",
+      "locationDropdown":".pac-container.pac-logo",
+      "locationList":"div[class='pac-container pac-logo'] div:nth-child(n)",
+      "filters": {
+        "noExperienceText":".mb-5 > .text-base",
+        "bidFilter": " div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)",
+        "departureTime":{
+          "openDepartureTime":":nth-child(2) > form > :nth-child(2) > .items-center",
+          "morningDeparture":"div[test-id='Morning – 12 AM to 11 AM']",
+          "afternoonDeparture":"div[test-id='Afternoon – 12 PM to 5 PM']",
+          "eveningDeparture":"div[test-id='Evening – 6 PM to 11 PM']"
+        },
+        "tripDuration":{
+          "openTripDuration":":nth-child(2) > form > :nth-child(3) > .items-center",
+          "twoHrs":"div[test-id='2 hours']",
+          "fourHrs":"div[test-id='Half Day (4 hours)']",
+          "sixHrs":"div[test-id='6 hours']",
+          "eightHrs":"div[test-id='Full Day (8 hours)']"
+        },
+        "tripSeason":{
+          "openTripSeason":":nth-child(2) > form > :nth-child(4) > .items-center",
+          "winterSeason":"div[test-id='Winter (Dec – Feb)']"
+        },
+        "price":{
+          "openPrice":":nth-child(2) > form > :nth-child(7) > .items-center",
+          "toFourHundred":"div[test-id='– $400']",
+          "betweenFourAndSixHundred":"div[test-id='$400 – $600']"
+        }
+      }
+    }
+  },
+  "customerProfile": {
+    "customerAvatar": ".relative > .hidden",
+    "customerProfile": {
+      "myAccBtnCustomer": ".pl-4 > .flex",
+      "logoutCustomer": ".text-red-600\\/100",
+      "customerName": "input[placeholder='John']",
+      "customerSurname": "input[placeholder='Doe']",
+      "customerEmail": "input[placeholder='john@doe.com']",
+      "customerPassword": "input[type='password']",
+      "customerDeleteAcc": "button[class='text-[13px] font-[400]']",
+      "saveButton": ".p-\\[30px\\] > .text-\\[16px\\]",
+      "deleteCustomer":".hidden > .flex > .text-\\[13px\\]",
+      "deleteWindow":".max-w-\\[485px\\]",
+      "enterPassForDelAcc":".w-\\[447px\\] > .relative > .group > .font-medium",
+      "deleteAccBtn":".w-\\[447px\\] > .gap-\\[10px\\] > .text-\\[\\#454545\\]",
+      "cancelDeleteAcc":".gap-\\[10px\\] > .text-white"
+    }
+  }
+}
